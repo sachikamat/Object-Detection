@@ -1,7 +1,0 @@
-For Video object detection: 
-python flow --model cfg\yolo.cfg --load bin\yolov2.weights --demo dogs.gif 
---saveVideo --gpu 0.7
-
-For image object detection (Here our sample images are in the directory sample_img):
-
-python flow --imgdir sample_img/ --model ./cfg/yolo.cfg --load bin/yolov2.weights
